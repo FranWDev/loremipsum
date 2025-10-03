@@ -43,6 +43,7 @@
 
 .logo-container h1 {
   font-size: 1.1rem;
+  padding-right: 1.25rem;
   color: var(--color-primary);
 }
 .logo-container h1 a {

@@ -37,9 +37,6 @@ h2 {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
 
   .item p:first-child {
     flex-direction: column;

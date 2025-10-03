@@ -1,0 +1,48 @@
+h2 {
+  border-bottom: 2px solid var(--color-secondary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-accent);
+}
+
+/* Contenedor de cada ítem */
+.item {
+  background-color: var(--color-blue-light);
+  padding: 1rem;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1rem;
+  transition: all var(--transition-normal);
+}
+
+.item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Nombre y precio */
+.item p:first-child {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+/* Descripción */
+.descripcion {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  margin-top: 0.3rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .item p:first-child {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
